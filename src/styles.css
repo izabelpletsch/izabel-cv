@@ -1,1 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+body {
+  font-family: "Sora", sans-serif;
+  background-image: url('https://media.istockphoto.com/vectors/dotted-grid-seamless-pattern-with-dots-simplified-matrix-vector-vector-id990354646?k=20&m=990354646&s=612x612&w=0&h=mnNI7shle061j8txngkEeLWJeiXtwEqhxS3eTcRGvpc=');
+  background-size: 100px;
+  overflow: hidden;
+}
+
+.card-img {
+  border-radius: 10px;
+  border: 4px solid white;
+  outline: 1px solid #bdbdbd;
+  background: black url('https://64.media.tumblr.com/e935657e7a02dedd462e3182c0815cb8/af3ae5709ad0675d-4b/s400x600/d505fb6ccaa30874db83792a3160d70ec1ef8c8c.pnj') bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.circle-user {
+  border-radius: 100%;
+  border: 2px solid white;
+  left: 5%;
+  top: 10%;
+  width: 125px;
+  position: absolute;
+  box-shadow: 0px 0px 0px 1px grey;
+}
+
+.contato {
+  padding: 90% 18px 6px 18px;
+  background: #00000087;
+  width: 20em;
+  color: white;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.contato:hover {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.contato i {
+  color: #a9eaa8;
+  margin-right: 5px;
+}
+
+.contato p {
+  margin-bottom: 0px
+}
+
+ul {
+  list-style-image: url('https://64.media.tumblr.com/f38fa30fdbca8b9aad570cda862a758d/0b396d46124cee0c-3d/s75x75_c1/49927dc1526c839289b45d5eab1401028f602be2.gifv');
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #5b978c #f7f7f7;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 18px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #5b978c;
+  border-radius: 20px;
+  border: 3px solid #f7f7f7;
+}

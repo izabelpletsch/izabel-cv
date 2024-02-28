@@ -1,0 +1,57 @@
+h1 {
+  font-family: "Capriola", sans-serif;
+  font-size: 30px;
+  color: #0d3340;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  color: #3c777e;
+  border-bottom: 1px dotted lightgray;
+  padding: 4px 0px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-block-end: 10px;
+  margin-block-start: 0px;
+  color: #003256;
+}
+
+.subtitle {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;    
+  background: black;
+  padding: 6px;
+  color: white;
+  -webkit-font-smoothing : none;
+}
+
+.year {
+  background: #6e659b;
+  padding: 5px;
+  font-size: 14px;
+  color: white;
+  float: right;
+}
+
+.main {
+  margin: 5% 8%;
+  display: flex;
+  gap: 70px;
+  max-height: 75vh;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px 2px black;
+  padding: 15px;
+  border: 8px solid #6e659b;
+  overflow: auto;
+}
+
+.content {
+  width: 100%;
+}
